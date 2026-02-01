@@ -38,3 +38,10 @@ button {
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
 }
+#message {
+    margin-top: 25px;
+    font-size: 36px;
+    font-family: 'Sacramento', cursive;
+    color: #e63946;
+    text-align: center;
+}
