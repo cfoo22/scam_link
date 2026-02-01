@@ -8,6 +8,7 @@ function selectOption(option) {
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
+            document.getElementById('message').innerHTML = "See you on Saturday 14th Feb ;) 💕";
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
